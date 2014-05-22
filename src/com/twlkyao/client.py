@@ -620,10 +620,9 @@ class Swift:
         else:
             return False
 
-    
-if __name__ == '__main__':
-    swift_op = Swift(SWIFT_TOKEN_ENDPOINT, SWIFT_DATA_ENDPOINT, 'hhh4', '123', 'hhh4')
-    tenant_id, token_id = swift_op.get_keystone_token(SWIFT_TOKEN_ENDPOINT)
+# if __name__ == '__main__':
+#     swift_op = Swift(SWIFT_TOKEN_ENDPOINT, SWIFT_DATA_ENDPOINT, 'hhh4', '123', 'hhh4')
+#     tenant_id, token_id = swift_op.get_keystone_token(SWIFT_TOKEN_ENDPOINT)
 #     print tenant_id
 #     print token_id
 # Container operation.
