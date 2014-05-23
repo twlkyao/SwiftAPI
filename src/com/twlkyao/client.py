@@ -4,8 +4,6 @@ import json
 import httplib
 from urlparse import urlparse
 from urllib import quote
-import time
-from imaplib import Response_code
 
 SWIFT_DATA_ENDPOINT = 'http://219.245.80.4:8090/v1/AUTH_'
 SWIFT_TOKEN_ENDPOINT = 'http://219.245.80.4:8089/v2.0/tokens'
